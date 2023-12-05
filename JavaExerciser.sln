@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.ClassLibrary", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Business", "1. Business", "{BD34E9C7-6D31-477D-B591-51BEAA896A43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaExerciser.Domain", "JavaExerciser.Domain\JavaExerciser.Domain.csproj", "{1763BFF7-D6D1-43E3-89D6-7B5E55081103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaExerciser.Domain", "JavaExerciser.Domain\JavaExerciser.Domain.csproj", "{1763BFF7-D6D1-43E3-89D6-7B5E55081103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaExerciser.DataAccess", "JavaExerciser.DataAccess\JavaExerciser.DataAccess.csproj", "{9764DB77-097B-4DFB-85B6-789316D9ED45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaExerciser.DataAccess", "JavaExerciser.DataAccess\JavaExerciser.DataAccess.csproj", "{9764DB77-097B-4DFB-85B6-789316D9ED45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaExerciser.API", "JavaExerciser.API\JavaExerciser.API.csproj", "{A40C941B-F14A-41AD-80DA-7042699C5814}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{9764DB77-097B-4DFB-85B6-789316D9ED45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9764DB77-097B-4DFB-85B6-789316D9ED45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9764DB77-097B-4DFB-85B6-789316D9ED45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40C941B-F14A-41AD-80DA-7042699C5814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40C941B-F14A-41AD-80DA-7042699C5814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40C941B-F14A-41AD-80DA-7042699C5814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40C941B-F14A-41AD-80DA-7042699C5814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
