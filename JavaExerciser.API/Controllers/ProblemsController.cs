@@ -14,4 +14,10 @@ public class ProblemsController : ControllerBase
     {
         _dataContext = dataContext;
     }
+
+    [HttpGet]
+    public IActionResult GetAllProblems()
+    {
+        return Ok(_dataContext.Problems);
+    }
 }
