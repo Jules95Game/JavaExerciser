@@ -16,8 +16,9 @@ export class ProblemListComponent {
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit(): void {
-    this.httpClient.get<Problem[]>('https://localhost:7210/api/Problems').subscribe((result: Problem[]) => {
-      this.problems = result;
-    });
+    this.httpClient.get<Problem[]>('https://localhost:7210/api/Problems')
+      .subscribe((result: Problem[]) => {
+        this.problems = result;
+      });
   }
 }
